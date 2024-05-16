@@ -1,0 +1,19 @@
+﻿Source,Sink,Count of relation,Source_Type,Sink_Type,relation
+azure systems,sys3,1,org,sys,supports
+db1,db2,1,db,db,join
+db1,sys1,1,db,sys,part of
+db2,db3,1,db,db,join
+db2,sys1,1,db,sys,part of
+db3,db4,1,db,db,join
+db3,db5,1,db,db,join
+db3,sys1,1,db,sys,part of
+db4,db1,1,db,db,join
+db4,sys2,1,db,sys,part of
+db5,db2,1,db,db,join
+db5,sys3,1,db,sys,part of
+Grp1,db1,1,AD Grp,db,uses
+sf,Grp1,1,user,AD Grp,member of
+Shawan,sys1,1,org,sys,supports
+Shawan,sys2,1,org,sys,supports
+user1,db1,1,user,db,uses
+user2,db1,1,user,db,uses
